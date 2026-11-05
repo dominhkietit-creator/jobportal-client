@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosClient = axios.create({
-    baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:5249/api',
+    baseURL: import.meta.env.VITE_API_BASE_URL || 'https://dominhkiet-001-site1.dtempurl.com/api',
 });
 
 // Tự động gắn Bearer Token nếu đã đăng nhập & tự động cấu hình Content-Type
