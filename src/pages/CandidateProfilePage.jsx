@@ -242,7 +242,7 @@ export default function CandidateProfilePage() {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
       const relativeUrl = res.data.imageUrl;
-      const fullUrl = `http://localhost:5249${relativeUrl}`;
+      const fullUrl = `https://towers-contract-toolbox-distinguished.trycloudflare.com${relativeUrl}`;
       setAvatarUrl(fullUrl);
       switchTab('info');
 
@@ -841,7 +841,7 @@ export default function CandidateProfilePage() {
                         {/* View Button */}
                         {cv.fileUrl && (
                           <a
-                            href={cv.fileUrl.startsWith('http') ? cv.fileUrl : `http://localhost:5249${cv.fileUrl}`}
+                            href={cv.fileUrl.startsWith('http') ? cv.fileUrl : `https://towers-contract-toolbox-distinguished.trycloudflare.com${cv.fileUrl}`}
                             target="_blank"
                             rel="noreferrer"
                             className="px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-800 hover:bg-slate-100 font-semibold text-slate-700 dark:text-slate-300 flex items-center gap-1 transition"

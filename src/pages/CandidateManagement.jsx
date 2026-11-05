@@ -380,7 +380,7 @@ export default function CandidateManagement() {
                                                         </div>
                                                     </div>
                                                     <a
-                                                        href={`http://localhost:5249${cv.fileUrl}`}
+                                                        href={`https://towers-contract-toolbox-distinguished.trycloudflare.com${cv.fileUrl}`}
                                                         target="_blank"
                                                         rel="noreferrer"
                                                         className="px-2 py-1 rounded bg-slate-100 hover:bg-[#1E40AF] hover:text-white text-slate-700 font-semibold text-[11px] transition inline-flex items-center space-x-1"

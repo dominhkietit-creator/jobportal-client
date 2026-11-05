@@ -1,7 +1,17 @@
 import axios from 'axios';
 
+export const API_ORIGIN = import.meta.env.VITE_API_ORIGIN || 'https://towers-contract-toolbox-distinguished.trycloudflare.com';
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || `${API_ORIGIN}/api`;
+
+export const getFileUrl = (path) => {
+    if (!path) return '';
+    if (path.startsWith('http://') || path.startsWith('https://')) return path;
+    const cleanPath = path.startsWith('/') ? path : `/${path}`;
+    return `${API_ORIGIN}${cleanPath}`;
+};
+
 const axiosClient = axios.create({
-    baseURL: import.meta.env.VITE_API_BASE_URL || 'https://towers-contract-toolbox-distinguished.trycloudflare.com/api',
+    baseURL: API_BASE_URL,
 });
 
 // Tự động gắn Bearer Token nếu đã đăng nhập & tự động cấu hình Content-Type

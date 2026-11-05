@@ -460,7 +460,7 @@ export default function AdminProfile() {
                     <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border-4 border-slate-100 shadow-md bg-slate-100 flex items-center justify-center">
                         {profile.avatarUrl ? (
                             <img
-                                src={profile.avatarUrl.startsWith('http') ? profile.avatarUrl : `http://localhost:5249${profile.avatarUrl}`}
+                                src={profile.avatarUrl.startsWith('http') ? profile.avatarUrl : `https://towers-contract-toolbox-distinguished.trycloudflare.com${profile.avatarUrl}`}
                                 alt="Admin Avatar"
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
