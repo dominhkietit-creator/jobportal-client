@@ -145,7 +145,7 @@ export default function EmployerProfilePage() {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
       const relativeUrl = res.data.imageUrl;
-      const fullUrl = `https://towers-contract-toolbox-distinguished.trycloudflare.com${relativeUrl.startsWith('/') ? '' : '/'}${relativeUrl}`;
+      const fullUrl = `https://nato-feat-petersburg-runtime.trycloudflare.com${relativeUrl.startsWith('/') ? '' : '/'}${relativeUrl}`;
       setAvatarUrl(fullUrl);
 
       showToast('Đã chọn ảnh đại diện xem trước. Vui lòng nhấn nút "Lưu thay đổi thông tin" bên dưới để áp dụng lưu.', 'info');

@@ -32,7 +32,7 @@ export default function EmployerApplicationsPage() {
   const getFullFileUrl = (url) => {
     if (!url) return '';
     if (url.startsWith('http://') || url.startsWith('https://')) return url;
-    return `https://towers-contract-toolbox-distinguished.trycloudflare.com${url.startsWith('/') ? '' : '/'}${url}`;
+    return `https://nato-feat-petersburg-runtime.trycloudflare.com${url.startsWith('/') ? '' : '/'}${url}`;
   };
 
   // Fetch applications list

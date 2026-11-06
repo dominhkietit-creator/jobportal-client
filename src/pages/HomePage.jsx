@@ -429,7 +429,7 @@ export default function HomePage() {
               >
                 {c.logoUrl ? (
                   <img
-                    src={c.logoUrl.startsWith('http') ? c.logoUrl : `https://towers-contract-toolbox-distinguished.trycloudflare.com${c.logoUrl}`}
+                    src={c.logoUrl.startsWith('http') ? c.logoUrl : `https://nato-feat-petersburg-runtime.trycloudflare.com${c.logoUrl}`}
                     alt={c.companyName}
                     className="w-16 h-16 rounded-2xl object-cover border border-slate-200 dark:border-slate-700 shadow-sm mb-3 group-hover:scale-105 transition"
                   />

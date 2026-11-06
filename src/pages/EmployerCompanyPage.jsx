@@ -139,7 +139,7 @@ export default function EmployerCompanyPage() {
           <div className="relative group w-32 h-32 rounded-3xl bg-slate-50 dark:bg-slate-700 border-2 border-dashed border-slate-200 dark:border-slate-600 flex items-center justify-center overflow-hidden shrink-0 shadow-inner">
             {company.logoUrl ? (
               <img
-                src={company.logoUrl.startsWith('http') ? company.logoUrl : `https://towers-contract-toolbox-distinguished.trycloudflare.com${company.logoUrl}`}
+                src={company.logoUrl.startsWith('http') ? company.logoUrl : `https://nato-feat-petersburg-runtime.trycloudflare.com${company.logoUrl}`}
                 alt="Company Logo"
                 className="w-full h-full object-contain p-2"
               />

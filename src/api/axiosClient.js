@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_ORIGIN = import.meta.env.VITE_API_ORIGIN || 'https://towers-contract-toolbox-distinguished.trycloudflare.com';
+export const API_ORIGIN = import.meta.env.VITE_API_ORIGIN || 'https://nato-feat-petersburg-runtime.trycloudflare.com';
 export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || `${API_ORIGIN}/api`;
 
 export const getFileUrl = (path) => {

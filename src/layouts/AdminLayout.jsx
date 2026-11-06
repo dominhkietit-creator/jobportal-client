@@ -675,7 +675,7 @@ export default function AdminLayout() {
                             <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#1E40AF] text-white flex items-center justify-center font-bold text-xs shadow-xs shrink-0 overflow-hidden border border-slate-200">
                                 {userAvatar ? (
                                     <img
-                                        src={userAvatar.startsWith('http') ? userAvatar : `https://towers-contract-toolbox-distinguished.trycloudflare.com${userAvatar}`}
+                                        src={userAvatar.startsWith('http') ? userAvatar : `https://nato-feat-petersburg-runtime.trycloudflare.com${userAvatar}`}
                                         alt=""
                                         className="w-full h-full object-cover"
                                         onError={(e) => {

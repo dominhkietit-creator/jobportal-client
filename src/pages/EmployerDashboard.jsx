@@ -312,7 +312,7 @@ export default function EmployerDashboard() {
                   <div className="shrink-0 flex flex-col items-end gap-1">
                     {getStatusBadge(app.status)}
                     <a
-                      href={`https://towers-contract-toolbox-distinguished.trycloudflare.com${app.cvFileUrl}`}
+                      href={`https://nato-feat-petersburg-runtime.trycloudflare.com${app.cvFileUrl}`}
                       target="_blank"
                       rel="noreferrer"
                       className="text-[10px] text-blue-600 hover:underline flex items-center gap-0.5 font-medium"
